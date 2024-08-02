@@ -360,10 +360,13 @@ section{
 .footer ul li a:hover{
     border-bottom: 3px solid var(--main-color);
 }
-.footer-copyright{
+.copyright {
+    font-size: 18px;
+    color: var(--tekt-color);
     text-align: center;
-    margin-top: 50px;
-    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
 }
 
 @media(max-width:1024px){
