@@ -110,30 +110,29 @@
 
         <section class="contact" id="contact">
             <h2 class="heading">Contact<span>Me</span></h2>
-
-            <from action="">
-
+        
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="0dbc68f4-6644-49bd-bbf0-c26b02951d2d">
+        
                 <div class="input-group">
                     <div class="input-box">
-
-                        <input type="text" placeholder="Full Name">
-                        <input type="email" placeholder="Email">
-
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
-
+        
                     <div class="input-box">
-                        <input type="number" placeholder="Phone Number">
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
                     </div>
                 </div>
-
+        
                 <div class="input-group-2">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                     <input type="submit" value="Send Message" class="btn">
                 </div>
-
-            </from>
-
-        </section>
+        
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            </form>
+        </section>        
 
         <footer class="footer">
             <div class="social-icons">
