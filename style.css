@@ -362,9 +362,10 @@ section{
 }
 .footer-copyright{
     text-align: center;
-    margin-top: 40px;
-    font-size: 16px;
+    margin-top: 50px;
+    font-size: 19px;
 }
+
 @media(max-width:1024px){
     #menu-icon{
     display: block;
