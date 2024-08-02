@@ -332,7 +332,7 @@ section{
     transition: background-color 0.3s;
 }
 .contact form .btn:hover {
-    background-color: var(--hover-color);
+    background-color: var(--main-color);
 }
 .contact form .hidden {
     display: none;
