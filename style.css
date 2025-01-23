@@ -205,16 +205,16 @@ section{
 }
 .project-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300PX, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300PX, 2fr));
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 .project-box{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 600px;
+    height: 250px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
@@ -238,8 +238,8 @@ section{
     font-size: 8rem;
 }
 .project-info h4{
-    font-size: 4rem;
-    margin: 2rem 0;
+    font-size: 3rem;
+    margin: 1rem 0;
     font-weight: 800;
 }
 .project-info p{
@@ -248,7 +248,7 @@ section{
     line-height: 1.7;
 }
 .cv-download {
-    padding: 5em 0;
+    padding: 3em 0;
     background-color: var(--second-bg-color);
     text-align: center;
   }
